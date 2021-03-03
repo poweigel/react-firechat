@@ -11,7 +11,7 @@ const Message = ({
   return (
     <div>
       {photoURL ? (
-        <img src={photoURL} atl="Avatar" width={45} height={45} />
+        <img src={photoURL} atl="Avatar" width={45} height={45} alt='' />
       ) : null}
       {displayName ? <p>{displayName}</p> : null}
       {createdAt?.seconds ? (

@@ -37,7 +37,7 @@ function App() {
 
     // Cleanup subscription.
     return unsubscribe;
-  }, []);
+  }, [initializing]);
 
   const signInWithGoogle = async () => {
     // Retrieve Google provider object.
