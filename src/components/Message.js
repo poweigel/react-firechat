@@ -1,6 +1,7 @@
 import React from 'react'
 import { formatRelative } from 'date-fns';    // Represent the date in words relative to the given base date with 'formatRelative'.
 
+// Message function.
 const Message = ({
   createdAt = null,
   text = '',
